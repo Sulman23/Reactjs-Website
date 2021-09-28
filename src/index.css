@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: rgba(6, 180, 6, 0.5) !important;
+  font-weight: bold;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid lawngreen;
+}
+
+/* Landing page Style */
+#header {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  color: black;
+  font-size: 48px;
+}
+
+#header .brand-name {
+  color: rgba(6, 180, 6, 0.5);
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  text-decoration: none;
+  border: 2px solid green;
+  color: black;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+#header .btn-get-started:hover {
+  background: green;
+  color: #fff;
+}
+
+#header img {
+  text-align: right;
+}
+
+/* Footer */
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.my-footer {
+  padding: 8px;
+  margin: 0;
+}
